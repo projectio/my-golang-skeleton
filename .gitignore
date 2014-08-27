@@ -1,0 +1,18 @@
+# disable all
+/*
+ 
+# enable files
+!/.gitignore
+!/Makefile
+!/project.sublime-project
+!/README.md
+ 
+# enable dirs
+!/bin
+!/pkg
+!/src
+
+# disable extra files
+/bin/app
+
+# disable extra dirs
