@@ -7,7 +7,7 @@ run: default
 	./bin/app
 
 fmt:
-	gofmt -tabwidth=2 -tabs=false -w src/main/*.go
+	gofmt -tabwidth=2 -tabs=false -w src/main/**/*.go
 
 dep-install:
 	go get github.com/nu7hatch/gouuid
